@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E105EDD41C6DB6D30041F731 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E105EDD31C6DB6D30041F731 /* CoreLocation.framework */; };
+		E105EDD61C6DB6E30041F731 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E105EDD51C6DB6E30041F731 /* MapKit.framework */; };
+		E105EDD81C6E8C600041F731 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105EDD71C6E8C600041F731 /* MapViewController.swift */; };
 		E10A52671C6C01E7006F2C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A52661C6C01E7006F2C58 /* AppDelegate.swift */; };
 		E10A52691C6C01E7006F2C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A52681C6C01E7006F2C58 /* ViewController.swift */; };
 		E10A526C1C6C01E7006F2C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10A526A1C6C01E7006F2C58 /* Main.storyboard */; };
@@ -14,6 +17,11 @@
 		E10A52711C6C01E7006F2C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10A526F1C6C01E7006F2C58 /* LaunchScreen.storyboard */; };
 		E10A527C1C6C01E7006F2C58 /* fleetFoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A527B1C6C01E7006F2C58 /* fleetFoxTests.swift */; };
 		E10A52871C6C01E7006F2C58 /* fleetFoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A52861C6C01E7006F2C58 /* fleetFoxUITests.swift */; };
+		E10A52951C6C03D4006F2C58 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A52941C6C03D4006F2C58 /* SecondViewController.swift */; };
+		E10A52991C6D1C5C006F2C58 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A52981C6D1C5C006F2C58 /* SSRadioButton.swift */; };
+		E10A529B1C6D1C61006F2C58 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A529A1C6D1C61006F2C58 /* SSRadioButtonsController.swift */; };
+		E1A58ACF1C6EB06D00DED887 /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A58ACE1C6EB06D00DED887 /* ShowDetailsViewController.swift */; };
+		E1A58AD91C7134B000DED887 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1A58AD81C7134B000DED887 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E105EDD31C6DB6D30041F731 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E105EDD51C6DB6E30041F731 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E105EDD71C6E8C600041F731 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E10A52631C6C01E7006F2C58 /* fleetFox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fleetFox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10A52661C6C01E7006F2C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E10A52681C6C01E7006F2C58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		E10A52821C6C01E7006F2C58 /* fleetFoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fleetFoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10A52861C6C01E7006F2C58 /* fleetFoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fleetFoxUITests.swift; sourceTree = "<group>"; };
 		E10A52881C6C01E7006F2C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10A52941C6C03D4006F2C58 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E10A52981C6D1C5C006F2C58 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		E10A529A1C6D1C61006F2C58 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		E1A58ACE1C6EB06D00DED887 /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
+		E1A58AD81C7134B000DED887 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../../background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E105EDD61C6DB6E30041F731 /* MapKit.framework in Frameworks */,
+				E105EDD41C6DB6D30041F731 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,8 @@
 		E10A525A1C6C01E6006F2C58 = {
 			isa = PBXGroup;
 			children = (
+				E105EDD51C6DB6E30041F731 /* MapKit.framework */,
+				E105EDD31C6DB6D30041F731 /* CoreLocation.framework */,
 				E10A52651C6C01E7006F2C58 /* fleetFox */,
 				E10A527A1C6C01E7006F2C58 /* fleetFoxTests */,
 				E10A52851C6C01E7006F2C58 /* fleetFoxUITests */,
@@ -97,9 +117,15 @@
 		E10A52651C6C01E7006F2C58 /* fleetFox */ = {
 			isa = PBXGroup;
 			children = (
+				E1A58AD81C7134B000DED887 /* background.jpg */,
+				E10A529A1C6D1C61006F2C58 /* SSRadioButtonsController.swift */,
+				E10A52981C6D1C5C006F2C58 /* SSRadioButton.swift */,
 				E10A52661C6C01E7006F2C58 /* AppDelegate.swift */,
 				E10A52681C6C01E7006F2C58 /* ViewController.swift */,
 				E10A526A1C6C01E7006F2C58 /* Main.storyboard */,
+				E1A58ACE1C6EB06D00DED887 /* ShowDetailsViewController.swift */,
+				E105EDD71C6E8C600041F731 /* MapViewController.swift */,
+				E10A52941C6C03D4006F2C58 /* SecondViewController.swift */,
 				E10A526D1C6C01E7006F2C58 /* Assets.xcassets */,
 				E10A526F1C6C01E7006F2C58 /* LaunchScreen.storyboard */,
 				E10A52721C6C01E7006F2C58 /* Info.plist */,
@@ -233,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E10A52711C6C01E7006F2C58 /* LaunchScreen.storyboard in Resources */,
+				E1A58AD91C7134B000DED887 /* background.jpg in Resources */,
 				E10A526E1C6C01E7006F2C58 /* Assets.xcassets in Resources */,
 				E10A526C1C6C01E7006F2C58 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10A52951C6C03D4006F2C58 /* SecondViewController.swift in Sources */,
+				E105EDD81C6E8C600041F731 /* MapViewController.swift in Sources */,
+				E10A529B1C6D1C61006F2C58 /* SSRadioButtonsController.swift in Sources */,
 				E10A52691C6C01E7006F2C58 /* ViewController.swift in Sources */,
 				E10A52671C6C01E7006F2C58 /* AppDelegate.swift in Sources */,
+				E1A58ACF1C6EB06D00DED887 /* ShowDetailsViewController.swift in Sources */,
+				E10A52991C6D1C5C006F2C58 /* SSRadioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +517,7 @@
 				E10A528D1C6C01E7006F2C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E10A528E1C6C01E7006F2C58 /* Build configuration list for PBXNativeTarget "fleetFoxTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +526,7 @@
 				E10A52901C6C01E7006F2C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E10A52911C6C01E7006F2C58 /* Build configuration list for PBXNativeTarget "fleetFoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +535,7 @@
 				E10A52931C6C01E7006F2C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
